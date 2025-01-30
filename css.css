@@ -1,0 +1,972 @@
+@font-face {
+    font-family: "Good Vibes Pro";
+    src: url("fonts/ofont.ru_Good Vibes Pro.ttf");
+  }
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("fonts/ofont.ru_Montserrat Alternates.ttf");
+  }
+  
+
+.header {
+    padding: 24px 0;
+    background: #fff;
+    position: fixed;
+    max-width: 1903px;
+    width: 100%;
+    
+z-index: 99;
+top: 0px
+
+
+}
+
+.container {
+    max-width: 1310px;
+    width: 100%;
+    
+    
+    margin: 0 auto;
+    padding-left: 15px;
+
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+.header_logo{
+    font-size: 50px;
+    font-family: "Good Vibes Pro";
+        
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.header_price{
+    font-size: 25px;
+    padding-left: 300px;
+    font-family: 'Montserrat Alternates';
+    border: none;
+    background: none;
+
+}
+
+
+
+.header_contact{
+    font-size: 25px;
+    font-family: 'Montserrat Alternates';
+    border: none;
+    background: none;
+
+}
+
+
+
+.header_but{
+    font-size: 25px;
+    font-family: 'Montserrat Alternates';
+   
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(270deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    border: 0;
+    padding: 2px;
+    
+}
+
+.header_but:hover {
+    background-image: linear-gradient(270deg, #181817 0%, #383838 23%, #535353 47.5%, #777777 73.75%, #cecdcc 100%);
+    opacity: 0.7;
+    
+    
+    }
+
+
+.but {
+    
+    display: block;
+    padding: 13px 25px;
+    background-color: #ffffff;
+    border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+   
+    .header {
+        padding: 24px 0;
+        background: #fff;
+        position: fixed;
+        max-width: 400px;
+        width: 100%;
+        
+    z-index: 99;
+    top: 0px
+    
+    
+    }
+    
+    .container {
+        max-width: 400px;
+        width: 100%;
+        
+        
+        margin: 0 auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+    }
+    
+    
+    .header_logo{
+        font-size: 15px;
+        font-family: "Good Vibes Pro";
+            
+        
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    .header_price{
+        font-size: 9px;
+        padding-left: 10px;
+        font-family: 'Montserrat Alternates';
+        border: none;
+        background: none;
+    
+    }
+    
+    
+    
+    .header_contact{
+        font-size: 9px;
+        font-family: 'Montserrat Alternates';
+        border: none;
+        background: none;
+        padding-left: 0px;
+        
+    
+    }
+    
+    
+    
+    .header_but{
+        font-size: 9px;
+        font-family: 'Montserrat Alternates';
+        width: 80px;
+        border-radius: 40px;
+        border-width: 2px;
+        border-style: solid;
+        background-image: linear-gradient(270deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+        border: 0;
+        padding: 2px;
+        margin-right: 30px;
+        
+        
+        
+    }
+    
+    .header_but:hover {
+        background-image: linear-gradient(270deg, #181817 0%, #383838 23%, #535353 47.5%, #777777 73.75%, #cecdcc 100%);
+        opacity: 0.7;
+        
+        
+        }
+    
+    
+    .but {
+        
+        display: block;
+        padding: 3px 5px;
+        background-color: #ffffff;
+        border-radius: 60px;
+        
+        
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Good Vibes Pro";
+    src: url("fonts/ofont.ru_Good Vibes Pro.ttf");
+  }
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("fonts/ofont.ru_Montserrat Alternates.ttf");
+  }
+
+
+.main {
+    padding: 200px 0;
+    padding-bottom: 0;
+
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.text {
+    font-family: 'Montserrat Alternates';
+    font-size: 80px;
+    padding: 0;
+
+}
+
+.horizontal-line {
+    display: inline-block;
+    width: 550px;
+    height: 2px;
+    background: linear-gradient(270deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    margin-bottom: 3px;
+    
+    
+}
+
+
+
+.form-decoration {
+
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(270deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    border: 0;
+    padding: 2px;
+
+}
+
+.form {
+    display: block;
+    padding: 60px 40px;
+    background-color: #ffffff;
+    border-radius: 40px;
+
+}
+
+
+
+.label_name{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 0px;
+
+
+}
+
+.label_tel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+
+
+
+.name1{
+    
+    
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(270deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    border: 0;
+    padding: 2px;
+    
+
+}
+.name {
+    font-size: 30px;
+
+    font-family:  "Montserrat Alternates";
+    display: block;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    
+}
+
+
+
+.tel1{
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(270deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    border: 0;
+    padding: 2px;
+   
+}
+
+
+
+
+
+
+.tel {
+    font-size: 30px;
+    font-family:  "Montserrat Alternates";
+    display: block;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    
+   
+}
+
+
+.but1_main {
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(310deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    border: 0;
+    padding: 15px 100px;
+
+}
+
+.but1_main:hover {
+    background-image: linear-gradient(270deg, #181817 0%, #383838 23%, #535353 47.5%, #777777 73.75%, #cecdcc 100%);
+    opacity: 0.9;
+    
+    
+    }
+
+.but_main {
+    font-size: 30px;
+    font-family:  "Montserrat Alternates";
+    display: block;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    border: none;
+    background: none;
+}
+
+
+.but_main_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Good Vibes Pro";
+    src: url("fonts/ofont.ru_Good Vibes Pro.ttf");
+  }
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/ofont.ru_Montserrat.ttf");
+  }
+
+
+
+
+.what {
+    padding: 240px 0;
+}
+.container {
+    
+    max-width: 1310px;
+    width: 100%;
+    
+    margin: 0 auto;
+    padding-left: 15px;
+}
+.header-what {
+    display: flex;
+    font-family: "Montserrat Alternates";
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.what-column{
+    display: flex;
+}
+
+
+.what-column1 {
+    column-count: 1;
+    padding-right: 200px;
+   
+}
+
+.what-column2 {
+   
+    column-count: 1;
+    padding-left: 0px;
+    
+   
+}
+.what-column3 {
+    column-count: 1;
+    padding-left: 200px;
+    
+   
+}
+
+
+
+.hed1 {
+    font-family: "Montserrat Alternates";
+    font-size: 19px;
+    padding-bottom: 30px;
+    padding-top: 230px;
+    text-align: right;
+    width: 418px;
+    height: 37px;
+    font-weight: normal;
+    
+}
+
+.tex1{
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: right;
+}
+
+
+
+
+
+.hed2 {
+    padding-bottom: 30px;
+    font-family: "Montserrat Alternates";
+    font-size: 19px;
+    padding-top: 170px;
+    text-align: right;
+    width: 418px;
+    height: 37px;
+}
+
+.tex2{
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: right;
+    
+}
+
+
+
+
+.hed3 {
+    padding-bottom: 30px;
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    text-align: left;
+    width: 376px;
+    height: 37px;
+    
+}
+.tex3{
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+    
+}
+
+
+
+
+.hed4 {
+    padding-bottom: 30px;
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    padding-top: 190px;
+    text-align: left;
+    width: 376px;
+    height: 74px;
+}
+.tex4{
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+.hed5 {
+    padding-bottom: 30px;
+    font-family: "Montserrat Alternates";
+    font-size: 20px;
+    padding-top: 100px;
+    text-align: left;
+    width: 376px;
+    height: 37px;
+}
+.tex5{
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+
+
+
+
+.num1 {
+    padding-bottom: 100px;
+    
+}
+.num2 {
+    padding-bottom: 100px;
+}
+.num3 {
+    padding-bottom: 100px;
+}
+.num4 {
+    padding-bottom: 100px;
+}
+.num5 {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Good Vibes Pro";
+    src: url("fonts/ofont.ru_Good Vibes Pro.ttf");
+  }
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("fonts/ofont.ru_Montserrat Alternates.ttf");
+  }
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/ofont.ru_Montserrat.ttf");
+  }
+
+
+.price {
+    padding: 24px 0;
+}
+.container {
+    max-width: 1310px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding-left: 15px;
+
+}
+.price-header {
+    font-family:  "Montserrat Alternates";
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+.line-price {
+    margin-bottom: 50px;
+
+}
+
+.price-colum{
+    column-count: 3;
+    width: 1350px;
+    
+   
+    
+
+}
+
+.price-colum1 {
+    padding-bottom: 150px;
+    
+    
+    
+    
+    
+
+}
+.price1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price2 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price3 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price4 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+
+}
+.price5 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price6 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price7 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price8 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+
+.price9 {
+    font-family: "Montserrat";
+    font-size: 30px;
+
+}
+
+
+
+.price-colum2{
+    padding-bottom: 100px;
+    padding-left: 50px;
+    
+    
+    
+
+}
+.cena1{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    
+}
+.cena2{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena3{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena4{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena5{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena6{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena7{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena8{
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+.cena9{
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+
+
+
+.price-colum3 {
+    padding-right: 50px;
+    
+    
+
+}
+.coplecs1 {
+    font-family: "Montserrat Alternates";
+    font-size: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+    
+
+}
+.price10 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+    
+
+}
+.coplecs2 {
+    font-family: "Montserrat Alternates";
+    font-size: 30px;
+    padding-bottom:0px;
+
+
+}
+.price11 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.coplecs3 {
+    font-family: "Montserrat Alternates";
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+.price12 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    
+
+}
+
+.zap1{
+
+    font-family: "Montserrat";
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-image: linear-gradient(310deg, #8E7140 0%, #FBE697 23%, #907140 47.5%, #FAE595 73.75%, #A88C54 100%);
+    border: 0;
+    padding: 15px 100px;
+    
+
+}
+
+.zap1:hover {
+    background-image: linear-gradient(270deg, #181817 0%, #383838 23%, #535353 47.5%, #777777 73.75%, #cecdcc 100%);
+    opacity: 0.9;
+    
+    
+    }
+
+
+.zap {
+    font-size: 30px;
+    font-family:  "Montserrat Alternates";
+    display: block;
+    padding: 10px 5px;
+    border-radius: 0px;
+}
+
+.zaap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("fonts/ofont.ru_Montserrat Alternates.ttf");
+}
+
+.carta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.carta-hed{
+    font-family: "Montserrat Alternates";
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("src/fonts/ofont.ru_Montserrat.ttf");
+  }
+
+.footer {
+    padding-top: 50px;
+}
+.container {
+}
+.footer-row {
+    display: flex;
+    
+    
+}
+.tg {
+    padding-left: 240px;
+    padding-bottom: 20px;
+    border: none;
+    background: none;
+}
+
+
+.vk {
+    padding-left: 12px;
+    padding-bottom: 20px;
+    border: none;
+    background: none;
+    
+}
+
+
+.contact {
+    font-family: "Montserrat";
+    padding-left: 212px;
+   font-size: 20px;
+}
+.adress {
+    font-family: "Montserrat";
+    padding-left: 198px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+body {
+    background-image: url(foto/image5.png);
+
+}
